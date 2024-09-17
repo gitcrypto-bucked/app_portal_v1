@@ -1,0 +1,238 @@
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+.h-custom {
+    height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
+.logo
+{
+    width: 125px;
+}
+.bg-gray
+{
+    --bs-bg-opacity: 1;
+    background-color: #cfdadf !important;
+    border: solid 1px #cfdadf;
+}
+ul, li > a
+{
+    color: black !important;
+    font-weight: 470 !important;
+    font-size:14px;
+    text-decoration: none;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+}
+.fa-icon
+{
+    padding-left:5px;
+    padding-right: 5px;
+}
+.empty-item
+{
+    padding-right: 25px;
+}
+/** ------ **/
+.container {
+    max-width: 960px;
+}
+.icon-link > .bi {
+    width: .75em;
+    height: .75em;
+}
+/*
+* Custom translucent site header
+*/
+.site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+    color: #8e8e8e;
+    transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+input, input[type=text],input[type=password], input[type=email]
+{
+    font-size: 14px !important;
+}
+button
+{
+    font-size: 16px !important;
+}
+
+.main {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 98vh
+    height: -webkit-fill-available;
+    max-height: 98vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+/** Sidebar **/
+
+
+.bg-darkblue
+{
+    background-color: #333652 !important;
+}
+
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.news-img {
+    border-radius: 5px;
+}
+
+img, svg {
+    vertical-align: middle;
+}
+bold {
+    font-size: 16px;
+    font-weight: 670;
+    color: black;
+}
+
+.smalltext {
+    font-size: 14px;
+}
+
+
+.cd__main{
+    position: relative;
+    display: block !important;
+}
+.sidebar-wrap {
+    width: 4.60%;
+    height: 100vh;
+    color: #fff;
+    padding: 5px;
+    transition: 0.8s;
+}
+.sidebar-wrap:hover {
+    width: 290px;
+}
+.sidebar-wrap:hover .logo-wrap span {
+    display: flex;
+}
+.sidebar-wrap:hover .nav li .nav-link span {
+    display: flex;
+}
+.sidebar-wrap:hover .dropdown-wrap strong {
+    display: flex;
+}
+.sidebar-wrap:hover .dropdown-wrap::after {
+    display: inline-block;
+}
+.sidebar-wrap:hover .dropdown-wrap {
+    justify-content: flex-start;
+}
+.sidebar-wrap .logo-wrap {
+    color: #fff;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.sidebar-wrap .logo-wrap span {
+    font-size: 18px;
+}
+.sidebar-wrap .logo-wrap .icon-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    min-width: 40px;
+    color:white;
+}
+.sidebar-wrap .nav {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    flex-wrap: nowrap;
+}
+.sidebar-wrap .nav::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+.sidebar-wrap .nav::-webkit-scrollbar {
+    width: 5px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+.sidebar-wrap .nav::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #9b9b9b;
+}
+.sidebar-wrap .nav li {
+    margin-top: 5px;
+}
+.sidebar-wrap .nav li .nav-link {
+    color:#E9EAEC;
+    padding: 0;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.sidebar-wrap .nav li .nav-link .icon-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    min-width: 40px;
+    color:white
+}
+.sidebar-wrap .nav li .nav-link span {
+    font-size: 16px;
+}
+.sidebar-wrap .nav li .nav-link.active {
+    background-color: #ffa200;
+}
+.sidebar-wrap .nav li .nav-link:hover {
+    background-color: #ffa200;
+
+}
+.sidebar-wrap .dropdown-wrap {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap: 15px;
+    font-size: 16px;
+}
+.sidebar-wrap .dropdown-wrap .icon-wrap {
+    min-width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span
+{
+    color:white
+}
